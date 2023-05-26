@@ -1,0 +1,142 @@
+.top {
+    font-size: 30px;
+}
+
+.search {
+    position: absolute;
+    top: 90px;
+    left: 1000px;
+}
+
+.search-btn {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    height: 30px;
+    width: 50px;
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    color: white;
+    background-color: gray;
+}
+
+.search-msg {
+    color: blue;
+    position: absolute;
+    top: 120px;
+    left: 600px;
+}
+
+.delete-msg {
+    color: red;
+    position: absolute;
+    top: 120px;
+    left: 600px;
+}
+
+.msg {
+    position: absolute;
+    top: 90px;
+    left: 600px;
+}
+
+.complete {
+    text-decoration: line-through;
+}
+
+.text-danger {
+    color: #dc3545!important;
+}
+
+.center {
+    margin-top: 50px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.create {
+    width: 500px;
+    margin: 15px;
+}
+
+
+.table {
+    width: 80%;
+}
+
+
+.item {
+    
+    height: 30px;
+    width: 25%;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.user-name {
+    
+    height: 30px;
+    width: 10%;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.date {
+    
+    height: 30px;
+    width: 15%;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.controll {
+    
+    height: 30px;
+    width: 15%;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.buttons {
+    display: inline-flex;
+    transform: translate(0,1px);
+    padding: 9px;
+    width: 100%
+}
+
+ .button {
+    height: 30px;
+    width: 50px;
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+ }
+
+ .blue {
+    color: white;
+    background-color: blue;
+ }
+
+ .green {
+    color: white;
+    background-color: green;
+ }
+
+ .red {
+    color: white;
+    background-color: red;
+ }
+
+ th,td {
+    border-bottom:2px gray solid;
+ }
+
+ tr:nth-child(2n) td {
+    background-color: #ffdaf8;
+  }
