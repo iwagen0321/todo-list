@@ -119,7 +119,9 @@
                 @endif
             @endforeach
         </table>
-    </div>
 
+    </div>
+    
+    {{$todo_items->links()}}
 
 </x-app-layout>
