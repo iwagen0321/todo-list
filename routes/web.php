@@ -24,7 +24,7 @@ Route::post('todo_items/complete/{todo_item}',[TodoItemsController::class,'is_co
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
 
 Route::get('/dashboard', function () {
