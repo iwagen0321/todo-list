@@ -122,6 +122,9 @@
 
     </div>
     
-    {{$todo_items->links()}}
+    <div class="flex justify-center mt-4">
+        {{ $todo_items->links('vendor.pagination.tailwind') }}
+    </div>
+
 
 </x-app-layout>

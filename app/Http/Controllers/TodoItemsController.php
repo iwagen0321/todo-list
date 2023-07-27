@@ -28,9 +28,11 @@ class TodoItemsController extends Controller
             $todo_items = todo_items::whereHas('User',function($q) use ($keyword){
                 $q->where('name', 'LIKE', "%{$keyword}%");
             })->orwhere('item_name', 'LIKE', "%{$keyword}%")
+            ->where('is_deleted','=','0')
             ->orderBy('expire_date','asc')->paginate(5);
         } else {
-            $todo_items = todo_items::orderBy('expire_date','asc')->paginate(5);
+            $todo_items = todo_items::where('is_deleted','=','0')
+            ->orderBy('expire_date','asc')->paginate(5);
             $keyword = " ";
         }
 
