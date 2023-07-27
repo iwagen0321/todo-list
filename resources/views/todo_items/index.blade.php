@@ -31,7 +31,9 @@
         <x-message :message="session('message')"/>
     </x-slot>
 
-    <x-create-button>作業登録</x-create-button>
+    <div class="flex justify-center mt-4">
+        <x-create-button>作業登録</x-create-button>
+    </div>
     
     <div class="center">
         <table class="table table1">
