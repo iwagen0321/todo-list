@@ -10,8 +10,6 @@
         <div class="top">
             <a href="{{route('todo_items.create')}}">作業登録</a>
         </div>
-        
-        <div>ようこそ{{Auth::user()->login_id}}さん</div>
 
         <x-input-error class="mb-4 msg" :messages="$errors->all()"/>
         <x-message :message="session('message')"/>
@@ -55,7 +53,7 @@
             </div>
             
             
-            <x-primary-button>登録</x-primary-button>
+            <x-primary-button class="bg-blue-800">登録</x-primary-button>
             <x-cancel-button>キャンセル</x-cancel-button>
 
         </form>

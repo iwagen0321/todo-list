@@ -11,13 +11,11 @@
             <a href="{{route('todo_items.index')}}">作業一覧</a>
         </div>
 
-        <div>ようこそ{{Auth::user()->login_id}}さん</div>
-
         <div class="search">
             <form method="get" action="{{route('todo_items.index')}}">
                 <input type="text" name="keyword" id="keyword" value="{{$keyword}}">
                 <div class="search-btn">
-                <input type="submit" value="検索">
+                    <input type="submit" value="検索">
                 </div>
             </form>
         </div>

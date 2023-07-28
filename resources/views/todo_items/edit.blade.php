@@ -10,8 +10,6 @@
         <div class="top">
             作業修正
         </div>
-        
-        <div>ようこそ{{Auth::user()->login_id}}さん</div>
 
         <x-input-error class="mb-4 msg" :messages="$errors->all()"/>
         <x-message :message="session('message')"/>
@@ -56,7 +54,7 @@
             </div>
             
             
-            <x-primary-button>更新</x-primary-button>
+            <x-primary-button class="bg-green-700">更新</x-primary-button>
             <x-cancel-button>キャンセル</x-cancel-button>
 
         </form>

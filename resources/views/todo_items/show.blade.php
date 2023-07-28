@@ -10,8 +10,6 @@
         <div class="top">
             削除確認
         </div>
-        
-        <div>ようこそ{{Auth::user()->login_id}}さん</div>
 
         <div class="delete-msg">
             下記の項目を削除します。よろしいでしょうか？
@@ -60,7 +58,7 @@
             @csrf
             @method('delete')
 
-                <x-primary-button>削除</x-primary-button>
+                <x-primary-button class="bg-red-700">削除</x-primary-button>
 
                 <x-cancel-button>キャンセル</x-cancel-button>
             </form>
