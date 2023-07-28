@@ -1,10 +1,12 @@
+
+https://github.com/iwagen0321/todo-list/assets/134582948/2c39399d-eaad-4590-83f1-4e4d2da55b6c
+
 # TodoList
 
 　複数の人で共有して使えるTodoListです。
 
 　PHP(Laravel)の勉強のために作成しました。
- 
-　
+
 ## 工夫した点
 + 期限日を過ぎたら文字が赤くなる
 + 完了ボタンを押すと完了日が入力され打ち消し線が出る
